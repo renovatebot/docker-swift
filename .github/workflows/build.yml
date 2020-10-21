@@ -22,7 +22,8 @@ jobs:
       matrix:
         flavor: [bionic, focal]
 
-    timeout-minutes: 60
+    env:
+      FLAVOR: ${{ matrix.flavor }}
 
     steps:
       - uses: actions/checkout@v2.3.3
