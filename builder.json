@@ -1,5 +1,5 @@
 {
   "image": "swift",
-  "startVersion": "5.2.1",
+  "startVersion": "5.3",
   "cache": "docker-build-cache"
 }
