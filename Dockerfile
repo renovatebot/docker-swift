@@ -7,8 +7,8 @@ ARG FLAVOR=latest
 # renovate rebuild triggers
 #--------------------------------------
 
-# renovate: datasource=docker depName=swift versioning=docker
-ARG SWIFT_VERSION=5.3.0
+# renovate: datasource=docker depName=swift versioning=regex:^(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$
+ARG SWIFT_VERSION=5.3
 
 FROM renovate/buildpack:2-swift
 
