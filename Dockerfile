@@ -10,7 +10,7 @@ ARG FLAVOR=latest
 # renovate: datasource=docker depName=swift versioning=regex:^(?<major>\d+)\.(?<minor>\d+)(\.(?<patch>\d+))?$
 ARG SWIFT_VERSION=5.3
 
-FROM renovate/buildpack:2-swift@sha256:a3b876cb26ccf7b6194a3ca9fb11ee3ae1fba48600f57ce68b0c373743cf5bcf
+FROM renovate/buildpack:2-swift@sha256:265109fdcfa13e5c858f1e535b449ece151be79e5bd8547bbcbce5f7905f0503
 
 
 #--------------------------------------
