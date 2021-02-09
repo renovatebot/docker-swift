@@ -1,4 +1,4 @@
-# renovate: datasource=docker depName=swift
+# renovate: datasource=docker depName=swift versioning=loose
 ARG SWIFT_VERSION=5.3.3
 
 FROM renovate/buildpack:4-swift@sha256:34f3bde5a697e66565224b4abf5eaa0eb9a3d9fecd9aa664f4f47abaa4cd5b3c
