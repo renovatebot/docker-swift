@@ -1,8 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>renovatebot/.github"],
-  "packageRules": [{
-    "matchPackageNames":["swift"],
-    "allowedVersions": "/^\\d+\\.\\d+(?:\\.\\d+)$/"
-  }]
+  "packageRules": [
+    {
+      "matchPackageNames": ["swift"],
+      "allowedVersions": "/^\\d+\\.\\d+(?:\\.\\d+)$/"
+    }
+  ]
 }
