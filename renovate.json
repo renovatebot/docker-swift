@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["swift"],
-      "allowedVersions": "/^\\d+\\.\\d+(?:\\.\\d+)$/"
+      "extractVersion": "/^(?<version>\\d+\\.\\d+(?:\\.\\d+)?)$/"
     }
   ]
 }

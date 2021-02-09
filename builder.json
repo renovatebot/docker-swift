@@ -1,5 +1,6 @@
 {
   "image": "swift",
   "startVersion": "5.3",
-  "cache": "docker-build-cache"
+  "cache": "docker-build-cache",
+  "extractVersion": "/^(?<version>\\d+\\.\\d+(?:\\.\\d+)?)$/"
 }
