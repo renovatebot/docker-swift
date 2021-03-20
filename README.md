@@ -4,4 +4,4 @@
 
 # docker-swift
 
-This repository is the source for the Docker Hub image `renovate/swift`. Commits to `master` branch are automatically built and published.
+This repository is the source for the Docker Hub image `renovate/swift`. Commits to `main` branch are automatically built and published.
