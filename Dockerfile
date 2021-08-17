@@ -1,7 +1,7 @@
 # renovate: datasource=docker depName=swift versioning=loose
 ARG SWIFT_VERSION=5.4.2
 
-FROM renovate/buildpack:5-swift@sha256:031ee6f9f76ab0a4744d412d079df8bf8950f571c70ae571274ae61ba071e4d9
+FROM renovate/buildpack:5-swift@sha256:46cb54610279075242e28245cb94cc9bd4388e4bb3cb04eaa2ff44eb4f16f445
 
 ARG SWIFT_VERSION
 RUN install-tool swift
